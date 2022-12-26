@@ -10,16 +10,19 @@ public class Hooks {
 
     public static WebDriver driver;
 
+
     @Before
     public void setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://demo.nopcommerce.com/");
+
     }
 
     @After
     public void tearDown(){
         driver.quit();
     }
+
 }

@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 77.98 s <<< FAILURE! - in runner.TestRunner
+runner.TestRunner.runScenario  Time elapsed: 3.633 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+
+runner.TestRunner.runScenario  Time elapsed: 2.584 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+
+runner.TestRunner.runScenario  Time elapsed: 3.172 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+
+runner.TestRunner.runScenario  Time elapsed: 2.493 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/new-online-store-is-open] but found [https://demo.nopcommerce.com/news/rss/1]
+

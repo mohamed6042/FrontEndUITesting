@@ -1,0 +1,16 @@
+stepDefinitions\SD06_HomeSliderTest.class
+stepDefinitions\SD02_LoginTest.class
+stepDefinitions\SD04_SearchTest.class
+pages\LoginPage.class
+pages\HomePage.class
+stepDefinitions\SD08_WishListTest.class
+pages\RegisterPage.class
+stepDefinitions\SD05_HoverCategoriesTest.class
+stepDefinitions\Hooks.class
+pages\MyProfilePage.class
+stepDefinitions\SD07_FollowUsTest.class
+pages\SearchPage.class
+stepDefinitions\SD03_CurrenciesTest.class
+pages\WishlistPage.class
+stepDefinitions\SD01_RegisterTest.class
+runner\TestRunner.class
